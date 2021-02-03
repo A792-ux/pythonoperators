@@ -1,0 +1,125 @@
+print('Hello, World!')
+x=13
+y=5
+print(x/y)
+#division
+
+print(x//y)
+#Floor division
+
+print(x%y)
+#modulus
+
+print(x**y)
+#Exponentiation
+
+print(x+y)
+#Addition
+
+print(x-y)
+#Subtraction
+
+print(x*y)
+#Multiplication
+
+print(x==y)
+#Equal?
+
+print(x>=y)
+#greater than or equal to?
+
+print(x<y)
+#less than?
+
+print(x!=y)
+#not equal?
+
+print(x>y)
+#greater than?
+
+print(x<=y)
+#less than or equal to?
+
+x="first"
+y="last"
+print("first"+"last")
+
+x=45
+y=45
+print(x!=y)
+#not equal?
+print(x==y)
+#equal?
+
+x="python"
+y="operators"
+print(x>=y)
+#true or false?
+
+x=20
+y=15
+#logical operators
+print(x>16 and y>12)
+#and? returns true if both of the statements are true
+print(x>16 and y<12)
+#still and?
+
+print(x<18 or y>14)
+#or? returns true if one of thestatements is true
+
+print(not(x<22 and y>14))
+#not? Reverse the result, returns false if the result is true
+print(not(x>22 and y<14))
+#still not?
+
+x="mangoes"
+y="oranges"
+#identity operators: used to compare objects if they are the SAME (not equal)
+print(x is y)
+#true or false?
+print(x is not y)
+#true or false?
+
+#membership operators
+#membership are used to test if a sequence is present in an object
+a=3
+b=12
+list= [1,2,3,4,5,6,7,8,9,10];
+if(a in list):
+    print("a is in the list")
+else:
+    print( "a is not in the list")
+if (b not in list):
+    print("b is not in the list")
+else:
+    print("b is in the list")
+    
+#bitwise operators
+#are used to compare binary numbers
+
+x=14    #1110
+y=12    #1100
+print("x & y=", x & y)
+#AND operation
+
+print("x | y=", x | y)
+#OR operation
+
+print("x ^ y=", x ^ y)
+#XOR operator
+
+print("~ x=", ~ x)
+#NOT operator
+
+print("x << 1=",x << 1)
+print("x << 2=",x << 2)
+print("y << 1=",y << 1)
+print("y << 2=",y << 2)
+#zero fill left shift
+
+print("x >> 1=",x >> 1)
+print("y >> 1=",y >> 1)
+print("x >> 2=",x >> 2)
+print("y >> 2=",y >> 2)
+#signed right shift
+
